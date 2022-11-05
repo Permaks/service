@@ -35,19 +35,16 @@ img{vertical-align: top;}
 
 h1,h2,h3,h4,h5,h6{font-size: inherit;font-weight: 400;}
 
-/* work zone */
-.navigation{
-  margin: 0% auto;
-  font-family: 'Times New Roman', Times, serif;
-  font-size: 20px;
-  border: 1px solid #000;
-  max-width: 1300px;
+/*todo work zone */
+/*? ststic sidebar zone */
+.sidebar{
+  
 }
-.nav-pad{
-  padding: 0px 15px;
-}
+
+/*? songs settings zone */
 .back-button{
-  border: 1px solid #000;
+  /* border: 1px solid #000; */
+  margin-left: 115px;
 }
 .nazva{
   max-width: 500px;
