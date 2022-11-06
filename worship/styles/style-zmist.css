@@ -115,13 +115,12 @@ body.active .wrapper .section{
 
 /* todo worck zone */
 .song-list{
-  position: fixed;
-  width: 500px;
-  margin-left: 30%;
+  text-align: center;
+  width: 100%;
   margin-top: 20px;
-  padding-left: 10%;
   font-family: 'open Sans', sans-serif;
   font-size: 20px;
+  border: 1px #e71313 solid;
 }
 
 .song-list ul li a:hover,
