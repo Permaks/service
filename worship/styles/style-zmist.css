@@ -120,13 +120,12 @@ body.active .wrapper .section{
   margin-top: 20px;
   font-family: 'open Sans', sans-serif;
   font-size: 20px;
-  border: 1px #e71313 solid;
 }
 
 .song-list ul li a:hover,
 .song-list ul li a.active{
-  color: #c0880f;
+  color: #c00f0f;
 
-  background: rgb(172, 178, 202);
+  background: rgb(246, 248, 255);
   border-right: 2px solid rgb(5, 68, 104);
 }
