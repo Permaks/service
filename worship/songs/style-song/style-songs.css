@@ -114,15 +114,11 @@ body.active .wrapper .section{
 }
 
 /*? songs settings zone */
-.back-button{
-  margin-left: 115px;
-}
-
 .section-posit{
   border: 1px #0c7db1 solid;
   text-align: center;
 }
-
-.verse-nomb{
-  padding-right: calc(100% - 1400px);
+.section-posit h2{
+  
 }
+
