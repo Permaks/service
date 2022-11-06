@@ -8,14 +8,55 @@
   <title>Матеріали для служіння</title>
 </head>
 <body>
-  <h1>Матеріали для служіння</h1>
-  <div class="sidebar">
-    <a href="../index.html">Головна</a>
-    <a href="./worship/zmist.html">Прославлення</a>
-    <a href="">Недільна школа</a>
-    <a href=""></a>
-    <a href=""></a>
+  <!-- !static sidebar -->
+  <div class="wrapper">
+    <!-- top menu -->
+    <div class="sidebar">
+      <!-- profile image -->
+      <div class="profile">
+        <img src="./image/sidebar.png" alt="profile image">
+        <h2>Вхід</h2>
+        <p>Створити профіль</p>
+      </div>
+      <!-- menu item -->
+      <ul>
+        <li>
+          <a href="./index.html" class="active">
+            <span class="icon"><i class="fas fa-home"></i></span>
+            <span class="item">Головна</span>
+          </a>
+        </li>
+        <li>
+          <a href="./worship/zmist.html">
+            <span class="icon"><i class="fas fa-worship"></i></span>
+            <span class="item">Прославлення</span>
+          </a>
+        </li>
+        <li>
+          <a href="#">
+            <span class="icon"><i class="fas fa-sanday-school"></i></span>
+            <span class="item">Недільна школа</span>
+          </a>
+        </li>
+      </ul>
+    </div>
+    <div class="section">
+      <div class="top_navbar">
+        <div class="hamburger">
+          <a href="#">
+            <i class="fas fa-bars"></i>
+          </a>
+        </div>
+      </div>
+    </div>
   </div>
+  <!-- todo JavaScript -->
+  <script>
+    var hamburger = document.querySelector(".hamburger")
+    hamburger.addEventListener("click", function(){
+      document.querySelector("body").classList.toggle("active")
+    })
+  </script>
 
   <a href="../zmist.html" class="back-button"><img src="./images/arrow.png" alt="back" width="25px"></a>
 

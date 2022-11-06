@@ -1,6 +1,7 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
+  <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.1/css/all.css">
   <meta charset="UTF-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -8,21 +9,65 @@
   <title>Worship Songs</title>
 </head>
 <body>
-  <h1>Матеріали для служіння</h1>
-  <nav class="navigation">
-    <span>
-      <a href="../index.html" class="nav-pad">Головна</a>
-      <a href="./worship/zmist.html" class="nav-pad">Прославлення</a>
-      <a href="" class="nav-pad">Недільна школа</a>
-      <a href="" class="nav-pad"></a>
-      <a href="" class="nav-pad"></a>
-    </span>
-  </nav>
-  <ul class="song-list">
-    <li><a href="./songs/yak-olen.html">Як олень прагне до потоків</a></li>
-    <li><a href="./songs/radist-u-chrysti.html">Радість у Христі я знайшов</a></li>
-    <li><a href="./songs/lublu-gospod-tviy-dim.html">Люблю Господь Твій дім</a></li>
-    <li><a href="./songs/vsya-zemlya-tak-dovgo.html">Вся земля так довго</a></li>
-  </ul>
+  <!-- <h1>Матеріали для служіння</h1> -->
+  <!-- !static sidebar -->
+  <div class="wrapper">
+    <!-- top menu -->
+    <div class="sidebar">
+      <!-- profile image -->
+      <div class="profile">
+        <img src="../image/sidebar.png" alt="profile image">
+        <h2>Вхід</h2>
+        <p>Створити профіль</p>
+      </div>
+      <!-- menu item -->
+      <ul>
+        <li>
+          <a href="../index.html">
+            <span class="icon"><i class="fas fa-home"></i></span>
+            <span class="item">Головна</span>
+          </a>
+        </li>
+        <li>
+          <a href="./zmist.html" class="active">
+            <span class="icon"><i class="fas fa-worship"></i></span>
+            <span class="item">Прославлення</span>
+          </a>
+        </li>
+        <li>
+          <a href="#">
+            <span class="icon"><i class="fas fa-sanday-school"></i></span>
+            <span class="item">Недільна школа</span>
+          </a>
+        </li>
+      </ul>
+    </div>
+    <div class="section">
+      <div class="top_navbar">
+        <div class="hamburger">
+          <a href="#">
+            <i class="fas fa-bars"></i>
+          </a>
+        </div>
+      </div>
+    </div>
+  </div>
+  <!-- todo JavaScript -->
+  <script>
+    var hamburger = document.querySelector(".hamburger")
+    hamburger.addEventListener("click", function(){
+      document.querySelector("body").classList.toggle("active")
+    })
+  </script>
+
+  <!-- todo -->
+  <div class="song-list">
+    <ul>
+      <li><a href="./songs/yak-olen.html">Як олень прагне до потоків</a></li>
+      <li><a href="./songs/radist-u-chrysti.html">Радість у Христі я знайшов</a></li>
+      <li><a href="./songs/lublu-gospod-tviy-dim.html">Люблю Господь Твій дім</a></li>
+      <li><a href="./songs/vsya-zemlya-tak-dovgo.html">Вся земля так довго</a></li>
+    </ul>
+  </div>
 </body>
 </html>
