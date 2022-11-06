@@ -122,3 +122,7 @@ body.active .wrapper .section{
   border: 1px #0c7db1 solid;
   text-align: center;
 }
+
+.verse-nomb{
+  padding-right: calc(100% - 1400px);
+}
